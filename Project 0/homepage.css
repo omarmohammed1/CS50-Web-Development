@@ -1,0 +1,156 @@
+h3{
+    color: black;
+    font-size: 13px;
+    text-align: right;
+}
+
+a:hover{
+    color: grey;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+#main_heading  {
+    margin: 10px;
+}
+
+#input-text{
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus{
+    border-color:#4d90fe;
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    padding: 0 16px;
+    height:36px;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+#input-text{
+    border-radius: 100px;
+}
+
+#logo_and_form{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    text-align: center;
+}
+
+#form_div{
+    display: inline-block;
+}
+
+/* Avanced Page CSS*/
+
+
+html, body {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+#logo_box {
+    background: #f1f1f1;
+    height: 58px;
+}
+
+#logo_advanced{
+    display: inline-block;
+    width: 92px;
+    height: 58px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 10px;
+}
+
+#logo_image_advanced{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#advanced_bar{
+    color: #d93025;
+    font-size: 20px;
+    margin-top: 25px;
+    padding-left: 40px;
+    font-family: Arial, sans-serif;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 25px;
+}
+
+#formbox{
+    margin: 40px 26.969px 0px 45px ;
+}
+
+#form_header{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form_label, .form_submit {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form_label{
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.ind_form{
+    margin: 25px 0px 25px 0px;
+    vertical-align: middle;
+}
+
+.jfk-textinput{
+    padding: 10px;
+    height: 10px;
+    width: 570px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+
+.form_submit{
+    position: absolute;
+    left: 15%;
+    text-align: center;
+}
+
+#search_button{
+    background-color: #4c8bf5;
+    color: white;
+}
+
+#button-div{
+    position: absolute;
+    left: 38.5%;
+
+}
